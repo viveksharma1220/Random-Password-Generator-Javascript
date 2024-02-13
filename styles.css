@@ -1,0 +1,51 @@
+.body html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.body{
+    overflow: hidden;
+}
+.container{
+  color: white;
+  height: 100vh;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.display-container input{
+   border-radius: 5px;
+   padding: 3px;
+}
+.display-container input ::placeholder{
+   color: blue;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+.container h1{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+.length-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.length-container p{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.strength-container p{
+    background-color: black;
+    border-radius: 5px;
+}
+.strength-container2{
+    border: 1px solid round white;
+}
